@@ -4,8 +4,6 @@ set nocompatible
 filetype plugin indent on
 set encoding=utf-8
 
-call plug#begin('~/.vim/plugged')
-
 syntax enable
 if has("gui_running")
     set lines=40
@@ -16,7 +14,7 @@ else
     set t_Co=256
 endif
 colorscheme solarized
-set background=dark
+set background=light
 set guifont=Consolas:h12
 
 set showcmd
